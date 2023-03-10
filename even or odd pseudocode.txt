@@ -1,0 +1,9 @@
+begin
+   numeric num
+   if(num%==0){
+           print(num"is even num")
+              }
+   else{
+          print(num"is odd num")
+       }
+end
