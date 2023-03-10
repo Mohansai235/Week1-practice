@@ -1,0 +1,14 @@
+begin
+   numeric num1,num2,sum,sub,mul,div
+   print("Enter two values")
+   Input num1
+   Input num2
+   sum=num1+num2
+   sub=num1-num2
+   mul=num1*num2
+   div=num1/num2
+   print("Addition of two numbers is:",sum)
+   print("subtraction of two numbers is:",sub)
+   print("multiplication of two numbers is:",mul)
+   print("division of two numbers is:",div)
+End
