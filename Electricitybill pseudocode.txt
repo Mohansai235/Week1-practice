@@ -19,6 +19,6 @@ begin
         bill=(100*4.20)+(100*5.67)+(100*8.98)+(unit-250)*9.50;
     }
    print("Bill excluding GST:",bill);
-   GSTbill=(18*bill)/100
+   GSTbill=bill+(18*bill)/100
    print("Bill including GST:",GSTbill);
 end
