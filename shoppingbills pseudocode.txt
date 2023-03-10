@@ -1,0 +1,11 @@
+begin
+   numeric employee_salary,bill1,bill2,bill3,total,percentage
+    print("enter the salary,bill1,bill2,bill3 details");
+   Input employee_salary   
+   Input bill1
+   Input bill2
+   Input bill3
+   total=bill1+bill2+bill3
+   percentage=(total*employee_salary)/100
+   print("percentage is"percentage);
+end
