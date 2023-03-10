@@ -9,7 +9,7 @@ begin
         grossSalary=basicSalary+hra+da
         print("grossSalary");
       }
-    elseif(basicSalary>10000 && basicSalary<=20000)
+    else if(basicSalary<=20000)
       {
        hra=(69*basicSalary)/100
         da=(79*basicsalary)/100
