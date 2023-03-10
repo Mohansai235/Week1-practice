@@ -1,0 +1,9 @@
+begin
+   numeric basicsalary,hra,da,grosssalary
+   print("Enter he basicsalary");
+   input basicsalary
+   hra=(56*basicsalary)/100
+   da=(78*basicsalary)/100
+   grosssalary=basicsalary+hra+da
+   print("GrossSalary is",grosssalary);
+end
