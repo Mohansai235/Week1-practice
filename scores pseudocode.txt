@@ -1,24 +1,32 @@
 begin
    numeric projectscore,internalscore,externalscore,total
-   print("Enter the marks of 3 subjects")
+   print("Enter the marks of 3 subjects");
    input projectscore
    input internalscore
    input externalscore
    if(projectscore>=50 && externalscore>=50 && internalscore>=50)
       {
-        total=((70*100)/projectscore)+((20*100)/externalscore)+((10*100)/internalscore)
+        total=((70*projectscore)/100)+((10*internalscore)/100)+((20*externalscore)/100)
         print("total");
        
     if(total>=90){
-          print("you have got A grade")
+          print("you have got A grade");
             }
-    if(total>=70 && total<90){
-          print("you have got B grade")
+    elseif(total>=70){
+          print("you have got B grade");
             }
-     if(total>=50 && total<70){
-          print("you have got C grade")
+     else{
+          print("you have got C grade");
             }
         }
    else{
-    print("you have failed in onesubject")
+          if(projectscore<50){
+               print("you are failed in project with",projectscore);
+               }
+               if(internalscore<50){
+               print("you are failed in internals with",internalscore);
+               }
+               if(externalscore<50){
+               print("you are failed in externals with",externalscore);
+               }
        }  
