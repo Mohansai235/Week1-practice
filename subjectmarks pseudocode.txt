@@ -1,5 +1,6 @@
 begin
    numeric sub1,sub2,sub3,total,average
+   print("Enter the 3 subjects marks")
    Input sub1
    Input sub2
    Input sub3
