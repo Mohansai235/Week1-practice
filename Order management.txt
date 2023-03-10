@@ -1,0 +1,26 @@
+Algorithm for order management system:
+1.Go Inside the restaurant.
+2.we have select the item to eat
+3.Take the token in the bill counter for that item
+4.Take that token and go to the parcel counter
+5.Give the token to the worker there & we have to take our parcel.
+
+
+
+
+Kitchen management algorithm:
+1.The worker takes the order and send it to the kitchen team.
+2.The kitchen team accept the order
+3.After that they start taking the ingrediants which are requirable for that order
+4.They start preparing the items thet are in the order.
+5.After completion of the order preparation they send it to customer.
+
+
+
+Employee management algorithm:
+1.When we first enter in to the restaurant the employee welcomes us.
+2.They show a place to sit in the restaurant.
+3.then they take the order.
+4.After the preparation of the order they start serving to us.
+5.After the completion of eatiing they gave us bill & they processed for payment.
+ 
