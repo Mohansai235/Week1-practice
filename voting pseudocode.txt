@@ -1,5 +1,7 @@
 begin
    numeric age
+   print("Enter the age")
+   input age
    if(age>=18){
            print("eligible for voting")
               }
