@@ -1,0 +1,24 @@
+begin
+   numeric units,bill,GSTbill
+   print("how many units you cosumed");
+   input units
+    if (units <=50)
+    {
+        bill=units*4.20
+    }
+    else if (units<=150)
+    {
+        bill=(50*4.20)+(units-50)*5.67;
+    }
+    else if (units<=250)
+    {
+        bill=(50*4.20)+(100*5.67)+(units-150)*8.98
+    }
+    else
+    {
+        bill=(100*4.20)+(100*5.67)+(100*8.98)+(unit-250)*9.50;
+    }
+   print("Bill excluding GST:",bill);
+   GSTbill=(18*bill)/100
+   print("Bill including GST:",GSTbill);
+end
