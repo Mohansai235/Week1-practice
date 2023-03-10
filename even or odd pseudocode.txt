@@ -1,5 +1,7 @@
 begin
    numeric num
+   print("Enter the number to find even or odd")
+   input num
    if(num%==0){
            print(num"is even num")
               }
