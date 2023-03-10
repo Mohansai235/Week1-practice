@@ -6,21 +6,17 @@ begin
       {
         hra=(67*basicSalary)/100
         da=(78*basicsalary)/100
-        grossSalary=basicSalary+hra+da
-        print("grossSalary");
       }
     else if(basicSalary<=20000)
       {
        hra=(69*basicSalary)/100
         da=(79*basicsalary)/100
-        grossSalary=basicSalary+hra+da
-        print("grossSalary");
        }
      else
        {
          hra=(75*basicSalary)/100
         da=(85*basicsalary)/100
+       }
         grossSalary=basicSalary+hra+da
-        print("grossSalary");
-        }
+        print("grossSalary is",grossSalary);
 end
